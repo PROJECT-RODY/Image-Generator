@@ -84,7 +84,7 @@ def sampling(text_encoder, netG, dataloader, ixtoword, device):
         model_dir = model_dir.replace(str(current_epoch), str(next_epoch))
     '''
     # hard debug by setting the index of trained epoch, adjust it as your need
-    for num_epoch in [120]:
+    for num_epoch in [130]:
         model_dir = model_dir.replace(str(start_epoch), str(num_epoch))
         start_epoch = num_epoch
 
@@ -528,7 +528,7 @@ if __name__ == "__main__":
     if cfg.B_VALIDATION:
         count = sampling(text_encoder, netG, dataloader, ixtoword, device)  # generate images for the whole valid dataset
         print('state_epoch:  %d' % (state_epoch))
-        
+
     # if cfg.B_VALIDATION: # 추가
     #     idx = 15
     #     # cap = "Crong is looking around the car. Crong and Pororo are surprised. Crong swings Crong's arms."#14 3문장 예시
