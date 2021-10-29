@@ -84,7 +84,7 @@ def sampling(text_encoder, netG, dataloader, ixtoword, device):
         model_dir = model_dir.replace(str(current_epoch), str(next_epoch))
     '''
     # hard debug by setting the index of trained epoch, adjust it as your need
-    for num_epoch in [130]:
+    for num_epoch in [125]:
         model_dir = model_dir.replace(str(start_epoch), str(num_epoch))
         start_epoch = num_epoch
 

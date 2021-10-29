@@ -20,7 +20,7 @@ TRAIN:
     BATCH_SIZE: 14 #24
     MAX_EPOCH: 130
     # NET_G: '../test'  #'../test' 'tmp/bird_sloss01/64/models/netG_590.pth'
-    NET_G: 'tmp/pororo_sloss01/64/models/netG_130.pth'
+    NET_G: 'tmp/pororo_sloss01/64/models/netG_125.pth'
     # NET_G: 'tmp/bird/64/models/netG_590.pth'
     WARMUP_EPOCHS: 50
     GSAVE_INTERVAL: 5
@@ -30,4 +30,4 @@ TRAIN:
 TEXT:
     EMBEDDING_DIM: 256
     CAPTIONS_PER_IMAGE: 10
-    DAMSM_NAME: './DAMSMencoders/pretrained/pororo/text_encoder_130.pth'
+    DAMSM_NAME: './DAMSMencoders/pretrained/pororo/text_encoder_125.pth'

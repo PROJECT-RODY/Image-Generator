@@ -133,4 +133,5 @@ dmypy.json
 *.tar
 
 writer/
+writer_new/
 data/

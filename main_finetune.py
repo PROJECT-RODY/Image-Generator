@@ -258,6 +258,7 @@ def train(dataloader, ixtoword, netG, netD, text_encoder, image_encoder,
         istart = cfg.TRAIN.NET_G.rfind('_') + 1
         iend = cfg.TRAIN.NET_G.rfind('.')
         state_epoch = int(cfg.TRAIN.NET_G[istart:iend])
+        print("save files load !! start {}".format(state_epoch))
 
     for epoch in tqdm(range(state_epoch + 1, cfg.TRAIN.MAX_EPOCH + 1)):
         data_iter = iter(dataloader)
