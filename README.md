@@ -32,7 +32,7 @@
 >  
 > 훈련 후 모델들이 저장되는 경로는 ./tmp/"data_name"_sloss01/64/models 디텍토리에 저장된다.
 > 
-> 
+> ### requirements.yaml 을 이용해 동일한 환경의 가상환경을 셋팅할 수 있다.
 > 
 > 
 > 
