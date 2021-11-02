@@ -1,5 +1,7 @@
 # 이미지 생성 모델
 ---
+- 훈련된 모델은 [링크](https://drive.google.com/drive/folders/1xPkj4Xd5DrvpeoA0xjXK1k7Fm57E6zZF?usp=sharing)의 Image-Generator압축파일을 내려받아 사용할 수 있다.
+---
 > main.py -> 학습과 샘플링, 설명 입력하여 이미지 생성 기능
 > - 학습의 경우는 image encoder과 text encoder은 제외
 > 
